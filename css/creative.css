@@ -387,7 +387,7 @@ header {
   background-size: 50%;
   -o-background-size: 50%;
   background-repeat: no-repeat;
-  background: linear-gradient(to bottom left, #f7edea, #0a5f93);
+  background: linear-gradient(to bottom left, #f7edea, #0a5e9313);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -397,16 +397,44 @@ header {
 
 .display-flex-flexwrap {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: space-around;
+  flex-direction: row;
 }
 
 .landing-header {
-  margin: 17% 0 10px;
+  flex: auto;
+  flex-direction: row;
+  flex-shrink: inherit;
   max-width: 600px;
   width: 90%;
 }
+
+.landing-header-text {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  color: #006B8F;
+  flex: 1;
+  margin-right: 40px;
+  text-align: right;
+  font-size: 10vmax;
+  line-height: 90%;
+  left: 8vmax;
+  top: 12vmax;
+}
+
+.landing-header-subtext {
+  flex: 1;
+  text-align: left;
+  margin-top: 4vmax;
+  color: #F07015;
+  width: 300px;
+  height: 300px;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2vmax;
+  line-height: 25px;
+}
+
 .landing-img {
   max-width: 800px;
   width: 100%;
