@@ -286,7 +286,7 @@ aside {
   border-radius: 0;
 }
 .navbar-nav .subnav .subnav-link > a {
-  color: #000;
+  color: rgb(0 107 142);
 }
 .navbar-nav .subnav-menu:hover > a {
   color: #f17014;
@@ -309,12 +309,12 @@ aside {
 
 @media (min-width: 1030px) {
   .navbar-default {
-    background-color: transparent;
+    background-color: whiite;
     border-color: transparent;
   }
 
   .navbar-default .navbar-header .navbar-brand {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(0 107 142);
   }
 
   .navbar-default .navbar-header .navbar-brand:hover,
@@ -324,7 +324,7 @@ aside {
 
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > button {
-    color: rgba(255, 255, 255);
+    color: rgb(0 107 142);
   }
 
   .navbar-default .nav > li > a:hover {
@@ -387,7 +387,7 @@ header {
   background-size: 50%;
   -o-background-size: 50%;
   background-repeat: no-repeat;
-  background: linear-gradient(to bottom left, #2baaed, #0a5f93);
+  background: linear-gradient(to bottom left, #f7edea, #0a5f93);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -468,7 +468,7 @@ header .header-content .header-content-inner p {
 /* COVID19 RESPONSE SECTION STYLING */
 
 .covid-bar {
-  margin: 0 0 20px;
+  margin: 0 0 15px;
   width: 100vw;
   text-align: center;
   background: linear-gradient(to bottom right, #f17014, #ffc400);
